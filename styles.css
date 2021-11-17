@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 30vw;
+    background: linear-gradient(to right, red, blue, yellow);
+    color: whitesmoke;
+    font-family: 'Estonia', cursive;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    text-align: justify;
+}
+
+.wifi-symbol {
+    margin: 0 6.6vw;
+    color: brown;
+    font-size: 10rem;
+}
+
+.wifi-symbol:hover {
+    background-color: chartreuse;
+    border-radius: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height: 99vh;
+    background-color: black;
+    overflow: auto;
+}
+
+.blog {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    background-color: #700B97;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        overflow: auto;
+    }
+
+    .row-container {
+        flex-direction: column;
+    }
+}
